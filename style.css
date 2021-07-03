@@ -1,0 +1,67 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to left,rgb(235, 160, 173),rgb(120, 178, 197),rgba(146, 3, 3, 0.884),rgb(203, 226, 140)) ;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 25px;
+}
+table tr td{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(65, 54, 54, 0.05);
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+table tr td:hover{
+    background: #2c3531;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,50%);
+    left: 50.1%;
+    top: 75%;
+}
+.text{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-weight: bold;
+    color: #000;
+    font-size: 60px;
+}
+.rowcol{
+    top: 50%;
+    left: 50%;
+    transform: translate(1%,100%);
+}
+.text1{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-45%,180%);
+    position: absolute;
+    font-weight: bold;
+    color: #000;
+    font-size: 40px;
+}
+.btn:hover{
+    color: turquoise;
+}
